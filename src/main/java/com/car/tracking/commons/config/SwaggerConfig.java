@@ -35,10 +35,10 @@ public class SwaggerConfig {
     // Describe your apis
     private ApiInfo metaData() {
         return new ApiInfoBuilder()
-                .title("Car Tracking... System v1 Swagger")
-                .description("This page lists all the rest apis for the Car Trackings.... System v1.")
+                .title("Smart Tracking System v1 Swagger")
+                .description("This page lists all the rest apis for the Smart Tracking System v1.")
                 .version("1.0-SNAPSHOT")
-                .contact(new Contact("Nyasha Nyabinde", "https://github.com/nyabindenyasha", "nyabindenyasha@gmail.com"))
+                .contact(new Contact("Chipiriro Nsangwe", "https://github.com/nyabindenyasha", "nyabindenyasha@gmail.com"))
                 .build();
     }
 
