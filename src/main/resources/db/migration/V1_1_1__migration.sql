@@ -1,0 +1,1 @@
+alter table todo_category modify column description text;

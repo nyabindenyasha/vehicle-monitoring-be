@@ -1,0 +1,26 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    password: ''
+    url: jdbc:mysql://localhost:3306/vehicle
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: false
+
+  flyway:
+    baseline-on-migrate: true
+    validate-on-migrate: false
+    schemas: todos
+    url: jdbc:mysql://localhost:3306/todos?useSSL=false
+
+system:
+  baseURL: http://localhost:8080
+  user:
+    email: nyabindenyasha@gmail.com

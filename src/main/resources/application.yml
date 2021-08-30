@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 4e178a27c3fe02c903115c07c4182c2bfa812fdc9b7f70f99070f1656bc75d13
+    platform: postgres
+    testWhileIdle: true
+    url: jdbc:postgresql://ec2-3-230-38-145.compute-1.amazonaws.com/d3c91mb53e6ffn
+    username: yqzgtwvqjbdihl
+    validationQuery: SELECT 1
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
