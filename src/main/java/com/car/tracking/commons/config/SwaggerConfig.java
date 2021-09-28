@@ -35,7 +35,7 @@ public class SwaggerConfig {
     // Describe your apis
     private ApiInfo metaData() {
         return new ApiInfoBuilder()
-                .title("Smart Tracking System v1 Swagger")
+                .title("Web based Tracking System v1 Swagger")
                 .description("This page lists all the rest apis for the Smart Tracking System v1.")
                 .version("1.0-SNAPSHOT")
                 .contact(new Contact("Chipiriro Nsangwe", "https://github.com/nyabindenyasha", "nyabindenyasha@gmail.com"))
